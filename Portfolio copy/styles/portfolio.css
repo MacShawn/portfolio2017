@@ -1,0 +1,392 @@
+h3, h1 {
+  color: black;
+}
+
+h1 {
+  color: #FFC107;
+}
+
+p {
+  font-size: 20px;
+  color: black;
+}
+
+
+
+
+a.navbar-brand {
+  text-align: center;
+  background-color: black;
+}
+                        /*NavBar Styling*/
+          /* Add a dark background color with a little bit see-through */ 
+.navbar {
+    margin-bottom: 0;
+    background-color: black;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    /*opacity:0.3;*/
+    
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand { 
+    color: #FFC107 !important;
+}
+
+/* On hover, the links will turn  */
+.navbar-nav li a:hover {
+    color: #FFC107 !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #FFC107 !important;
+    background-color:black !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+
+
+div.collapse navbar-collapse {
+
+}
+
+
+
+
+
+                            /*NavBar Styling Ends*/
+
+/*Home Style Starts here*/
+
+#home {
+  width: 100%;
+  height: 500px;
+}
+
+.home div.section {
+    width: 100%;
+    text-align: center;
+    color: #c19e38;
+    height: 500px;
+    background-color: black;
+    
+    /*opacity: 0.2;*/
+    
+   
+}
+
+.home div.section .center {
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+
+/*Home Style Ends here*/
+
+
+
+
+#about {
+  background: #FFC107;
+  width: 100%;
+  height: auto;
+
+}
+
+#about h3 {
+  text-align: center;
+  margin-top: -10px;
+  padding-bottom: 10px;
+  font-size: 40px;
+}
+
+          /*Skill Styles Starts Here*/
+.skills h1 {
+  color: #FFC107;
+  font-size: 40px;
+  margin-top: 80px;
+
+
+}
+.skills {
+  background: black;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  color: #bdbdbd;
+  /*padding: 35px;*/
+
+}
+
+#skills img {
+  display: inline-block;
+  margin: 50px;
+}
+
+
+
+
+
+      /*SKill Styles Ends Here*/
+
+
+.container {
+
+	padding: 80px 120px;
+}
+
+
+.container1 {
+	padding: 8px;
+}
+
+          /*Project Styling Starts Here!!!*/
+#projects {
+    background: #FFC107;
+    color: #bdbdbd;
+    width: 100%;
+    height: auto;
+
+}
+.projects h1 {
+	color: black;
+  text-align: center;
+  padding-bottom: 80px;
+  font-size: 40px;
+}
+
+        /*Projects Styles Ends Here*/
+
+
+
+              /*Project styling*/
+.service-box{
+            position: relative;
+            overflow: hidden;
+            margin-bottom:10px;
+            perspective:1000px;
+            -webkit-perspective:1000px;
+        }
+        .service-icon{
+            width: 100%;
+            height: 220px;
+            padding: 20px;
+            text-align: center;
+            transition: all .5s ease;
+        }
+
+        .service-content{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            opacity: 0;
+            width: 100%;
+            height: 220px;
+            padding: 20px;
+            text-align: center;
+            transition: all .5s ease;
+            background-color: #474747;
+            backface-visibility:hidden;
+            transform-style: preserve-3d;
+            -webkit-transform: translateY(110px) rotateX(-90deg);
+            -moz-transform: translateY(110px) rotateX(-90deg);
+            -ms-transform: translateY(110px) rotateX(-90deg);
+            -o-transform: translateY(110px) rotateX(-90deg);
+            transform: translateY(110px) rotateX(-90deg);
+        }
+        .service-box .service-icon .front-content{
+            position: relative;
+            top:80px;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
+        .service-box .service-icon .front-content i {
+            font-size: 28px;
+            color: #fff;
+            font-weight: normal;
+        }
+
+        .service-box .service-icon .front-content h3 {
+            font-size: 15px;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        .service-box .service-content h3 {
+            font-size: 15px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom:10px;
+            text-transform: uppercase;
+        }
+        .service-box .service-content p {
+            font-size: 13px;
+            color: #b1b1b1;
+            margin:0;
+        }
+        .yellow{background-color: #B2DFDB;
+
+        background: #3494E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+        }
+        .orange{background-color: 
+
+        background: #ee0979;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+        }
+        .red{background-color: #e84b3a;}
+        .grey{background-color: #474747;}
+        .service-box:hover .service-icon{
+            opacity: 0;
+            -webkit-transform: translateY(-110px) rotateX(90deg);
+            -moz-transform: translateY(-110px) rotateX(90deg);
+            -ms-transform: translateY(-110px) rotateX(90deg);
+            -o-transform: translateY(-110px) rotateX(90deg);
+            transform: translateY(-110px) rotateX(90deg);
+        }
+        .service-box:hover .service-content {
+            opacity: 1;
+            -webkit-transform: rotateX(0);
+            -moz-transform: rotateX(0);
+            -ms-transform: rotateX(0);
+            -o-transform: rotateX(0);
+            transform: rotateX(0);
+        }
+
+
+/*service box Ends*/
+
+
+
+
+  /*Responvise Style*/
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+.vid-info { width: 50%; padding: .5rem; }
+.vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+.vid-info .acronym { display: none; }
+}
+
+
+
+
+
+
+
+#contact  {
+  width: 100%;
+  height: 600px;
+  background-color: black;
+}
+
+#contact h3 {
+  margin-top: 15px;
+}
+
+#contact p {
+  margin-top: 20px;
+}
+
+#contact .text-center {
+  color: #FFC107;
+  margin-top: -10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#contact p a {
+  color: white;
+  text-decoration: none;
+}
+
+#contact p a:hover {
+  color: #FFC107;
+}
+
+#contact p a i {
+  padding-right: 5px;
+}
+
+
+
+.text-center .col-md-12 p{
+color: #FFC107;
+font-size: 20px;
+}
+
+.text-center .col-md-12 p a {
+  color: #B2DFDB;
+  font-size: 20px;
+}
+
+.text-center .col-md-12 p a p {
+  color: red;
+}
+
+
+div.row.test {
+  padding: 0 300px;
+  text-align: center;
+  font-weight: 80px;
+  color: blue;
+}
+
+i {
+    color: #FFC107;
+}
+
+i:hover {
+  color: white;
+}
+
+
+
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+
+
+
+
+
+
+

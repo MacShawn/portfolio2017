@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+
+   
+   <link rel="stylesheet" href="styles/portfolio.css" type="text/css">
+   <link rel="stylesheet" type="text/css" href="styles/typed- copy.css">
+    <link rel="stylesheet" href="styles/css.css" type="text/css">
+  
+   <link rel="stylesheet" href="styles/font-awesome.min.css" type="text/css">
+
+
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="scripts/typed-copy copy.js"></script>
+  <!--<script src="scripts/smoothscrolling.js"></script>-->
+
+<title>Shawn Lewis | Web Designer</title>
+
+</head>
+
+<script>
+	$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})	
+</script>
+
+
+
+
+
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">SML</a>
+    </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div id="home" class="home" class="container text-center">
+  <!-- Indicators -->
+
+  <div class="section">
+         <div id="typed-strings">
+            <p class=".col-xs-3">Hello, I'm Shawn Lewis.</p>
+            <p class=".col-xs-3"> A Self-Taught <span style="color: red">Front-End Developer</span></p>
+            <p class=".col-xs-3">Learning<span style="color: red">  MEAN Stack Development.</span></p>
+            <p class=".col-xs-3">Feel free to look around.</p>
+        </div>
+
+<div class="center">
+    <span id="typed"></span>
+</div>       
+
+
+        </div> 
+</div>
+
+
+					<!-- About container -->
+	
+	<div id="about" class="container text-center">
+		<h3>ABOUT THE DEVELOPER</h3>
+			<p>My name is Shawn Lewis a self-taught developer for two years in counting.</p>
+			<p>My main focus is working on the front-end development side such as HTML5, CSS3, Javascript, jQuery and other client side frameworks .</p>
+			<p>I'm also proficient with content management system such as Wordpress.</p>
+			<p>In my free time I enjoy perfecting my craft and working on myself.</p>
+			<p>I also like playing basketball and sending quality time with my family and friends.</p>
+
+		
+	</div>
+
+
+				<!-- Skills Page -->
+
+<div id="skills" class="skills" class= "row text-center">
+<!-- <div class="container1"> -->
+    			<div class="row text-center">
+            <h1>SKILLS</h1>
+      
+  <img src="images/HTML5.png" alt="html5" width="100" height="100">
+
+  <img src="images/css3Logo.png" alt="css3" width="75px" height="100">
+
+  <img src="images/javaScriptLogo.png" alt="JavaScript" width="100px" height="100px">
+
+  <img src="images/wordpress.png" alt= "Wordpress" width="100px" height="100px">
+
+  <img  class="img-responsive" src="images/adesigner.png" alt="Affinity Designer" width="100px" height="100px">
+
+  <img src="images/jquery-icon.png" alt="jQuery" width="100px" height="100px">
+
+  
+    				
+                      <!-- End of Skills Page -->
+
+
+										<!-- Container (Project Section) -->
+			<div id="projects" class="projects">
+  			
+  			<div class="container1">
+  				<h1>PROJECTS</h1>
+
+    			 <div class="row">
+        <div class=".col-xs-6 col-md-4">
+            <div class="service-box">
+                <div id="Boxes" class="service-icon yellow">
+                    <div class="front-content">
+                        
+                        <a href="RGBColorGame/rgbGame.html"><h3><span style="color: red">R</span><span style="color:green">G</span><span style="color:blue">B</span> Color Game</h3></a>
+                    </div>
+                </div>
+                <div class="service-content">
+                
+                    <h3>Tech Used</h3>
+                    <p>HTML5</p>
+                    <p>CSS3</p>
+                    <p>JavaScript</p><br>
+                    <a href="RGBColorGame/rgbGame.html">RGB Color Game</a>
+                </div>
+            </div>
+        </div>
+        <div class=".col-xs-6 col-md-4">
+            <div class="service-box">
+                <div class="service-icon orange">
+                    <div class="front-content">
+                    		<img src="images/tetris2.png" alt="tetris" width="200px" height="200px">
+                        
+                        <!-- Front box title -->
+                        
+                    </div>
+                </div>
+                <div class="service-content">
+                      <h3>Tech Used</h3>
+                    	<p>JavaScript</p>
+                    	<p>HTML5</p>
+                    	<p>CSS3</p>
+                    	<p>JQuery</p><br>
+                    	<a href="../Tetris/index.html">Tetris</a>
+                </div>
+            </div>
+        </div>
+        <div class=".col-xs-6 col-md-4">
+            <div class="service-box ">
+                <div class="service-icon red">
+                    <div class="front-content">
+                        <!-- <i class="fa fa-trophy"></i> -->
+                        <h3>Coming Soon!!</h3>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h3>Coming Soon!!</h3>
+                    <!-- <p>Tech Used</p> -->
+                </div>
+            </div>
+        </div>
+        <div class=".col-xs-6 col-md-4">
+            <div class="service-box">
+                <div class="service-icon grey">
+                    <div class="front-content">
+                        <!-- <i class="fa fa-paper-plane-o"></i> -->
+                        <h3>Coming Soon!!</h3>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <h3>Coming Soon!!</h3>
+                    <p>Tech Used</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>       
+                                        <!--      service box ends-->
+      
+
+
+
+ <!-- Contact Page -->
+
+<div id="contact" class="container">
+  <h3 class="text-center">CONTACT</h3>
+  			<!-- Contact section -->
+  	<div class="text-center">
+    	<div class="col-md-12">
+      		<p>The fastest way to get a response from me is to send me an email. I will try my best to respond to your email in less than 24 hours.</p>
+      		<p><a href="mailto:shawnlewis52@gmail.com"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>Shawn Lewis</a></p> 
+    		<p>If email is not your thing, you can also reach me through social media.</p>
+
+        <a href="https://twitter.com/macshawn405"> <i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/shawnlewis52/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        <a href="https://github.com/Shawn405"> <i class="fa fa-github-square" aria-hidden="true"></i></a>
+      </div>
+    </div>
+</div>
+
+        <!-- FOOTER -->
+<footer id="footer" class="text-center">
+  <a href="http://shawnlewis405.com/"> &copy; 2017 Shawn Lewis</a>
+</footer>
+  
+</div>
+
+
+<script src="scripts/main copy 2.js"></script>
+
+</body>
+</html>
